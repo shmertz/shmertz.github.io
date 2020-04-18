@@ -1,23 +1,6 @@
-$background-color: #FFFFF0;
-
-$purple-accent: #871DF2;
-// todo - create link-visited color
-// fixme - purple doesn't look nice on the light site, maybe keep it for dark mode
-
-$twitter-blue: #1DA1F2;
-
-$nickel: #6c756b;
-$licorice: #1a090d;
-
-$sans-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-$serif-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$mono-font: "Courier New", Courier, monospace;
-$test-font: 'Inter UI Bold',sans-serif;
-// todo - pick better font, this one's too playful
-
 body {
     background-color: $background-color;
-    font-family: $sans-font;
+    // font-family: $sans-font;
     color: $licorice;
 }
 
@@ -32,7 +15,7 @@ h1 .lower-case {
 }
 
 #full-name {
-    font-family: $serif-font;
+    // font-family: $serif-font;
 }
 
 a {
